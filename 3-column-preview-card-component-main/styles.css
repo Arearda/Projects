@@ -1,6 +1,37 @@
+/* main attributes */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-   Font size: 15px;
+   Font-size: 15px;
+}
+
+h2 {
+font-family: 'Big Shoulders Display', cursive;
+font-weight: 700;
+color: hsl(0, 0%, 95%);
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.sedan_box {
+  background-color: hsl(31, 77%, 52%);
+  padding: 10px;
+}
+
+.suv_box {
+  background-color: hsl(184, 100%, 22%);
+  padding: 10px;
+}
+
+.luxury_box {
+  background-color: hsl(179, 100%, 13%);
+  padding: 10px;
 }
