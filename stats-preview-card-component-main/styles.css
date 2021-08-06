@@ -33,25 +33,16 @@ h1 {
 
 .stats__number {
   margin: 10px;
-}
 
-.stats__heading {
-  display: block;
 }
 
 .photo_container {
   border: 1px solid white;
-  display: flex;
-  float: right;
-  justify-content: flex-end;
-  background-color: hsl(277, 64%, 61%);
 }
 
 .photo {
   width: auto;
   mix-blend-mode: multiply;
-  opacity: 0.8;
-}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
