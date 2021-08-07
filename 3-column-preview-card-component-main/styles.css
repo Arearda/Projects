@@ -25,6 +25,7 @@ a {
   display: flex;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
+  font-size: 1.2em;
   border-radius: 30px;
   max-width: 60%;
   margin-top: 200px;
@@ -40,11 +41,13 @@ a {
 .suv_box {
   background-color: hsl(184, 100%, 22%);
   padding: 10px;
+  margin: 0;
 }
 
 .luxury_box {
   background-color: hsl(179, 100%, 13%);
   padding: 10px;
+  margin: 0;
 }
 
 .paragraphs {
@@ -54,32 +57,48 @@ a {
 
 .button_sedan {
   font-family: 'Lexend Deca', sans-serif;
-  background-color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%)
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
   margin-left: 50px;
+  margin-top: 50px;
+}
+
+.button_sedan:hover {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
 }
 
 .button_suv {
   font-family: 'Lexend Deca', sans-serif;
-  background-color: hsl(184, 100%, 22%);
+  background-color: white;
+  color: hsl(184, 100%, 22%);
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
   margin-left: 50px;
+  margin-top: 50px;
+}
+
+.button_suv:hover {
+  background: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
 }
 
 .button_lux {
   font-family: 'Lexend Deca', sans-serif;
-  background-color: hsl(179, 100%, 13%);
+  background-color: white;
+  color: black;
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
   margin-left: 50px;
+  margin-top: 60px;
 }
 
-
-.button_sedan a, .button_suv a, .button_lux a {
+.button_lux:hover {
+  background: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
 }
