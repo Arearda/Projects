@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 h2 {
@@ -40,6 +40,18 @@ a {
   border-bottom-left-radius: 10px;
 }
 
+.sedan_box a {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  text-decoration: none;
+}
+
+.sedan_box a:hover, .button_sedan:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  text-decoration: none;
+}
+
 .suv_box {
   background-color: hsl(184, 100%, 22%);
   padding: 10px;
@@ -66,12 +78,7 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
-  margin-left: 50px;
-}
-
-.button_sedan:hover {
-  background: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
+  margin-left: 25px;
 }
 
 .button_suv {
@@ -81,7 +88,7 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .button_suv:hover {
@@ -96,7 +103,7 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .button_lux:hover {
