@@ -14,6 +14,7 @@ h2 {
 font-family: 'Big Shoulders Display', cursive;
 font-weight: 700;
 color: hsl(0, 0%, 95%);
+padding: 0px 0px 0px 50px;
 }
 
 a {
@@ -25,7 +26,7 @@ a {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   border-radius: 30px;
-  max-width: 70%;
+  max-width: 60%;
   margin-top: 200px;
   height: 50vh;
 }
@@ -48,6 +49,7 @@ a {
 
 .paragraphs {
   color: hsla(0, 0%, 100%, 0.75);
+  padding: 20px 50px;
 }
 
 .button_sedan {
@@ -56,6 +58,7 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
+  margin-left: 50px;
 }
 
 .button_suv {
@@ -64,6 +67,7 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
+  margin-left: 50px;
 }
 
 .button_lux {
@@ -72,6 +76,7 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
+  margin-left: 50px;
 }
 
 
