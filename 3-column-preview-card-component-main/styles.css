@@ -17,7 +17,7 @@ font-family: 'Big Shoulders Display', cursive;
 font-weight: 700;
 color: hsl(0, 0%, 95%);
 padding: 0px 0px 0px 20px;
-padding: 2rem;
+padding: 1rem;
 }
 
 a {
@@ -30,33 +30,32 @@ a {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
-  max-width: 70rem;
-  padding: 50px;
-  box-sizing: border-box;
+  max-width: 65rem;
+  padding: 2rem;
 }
 
 .sedan_box {
   background-color: hsl(31, 77%, 52%);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  padding: 30px;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 .suv_box {
   background-color: hsl(184, 100%, 22%);
-  padding: 30px;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 .luxury_box {
   background-color: hsl(179, 100%, 13%);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 30px;
+  padding: 2rem 2rem 4rem 2rem;
 }
 
 .paragraphs {
   color: hsla(0, 0%, 100%, 0.75);
-  padding: 2rem;
+  padding: 2rem 2rem 5rem 2rem;
 }
 
 .button_sedan {
@@ -64,9 +63,8 @@ a {
   background-color: hsl(0, 0%, 95%);
   color: hsl(31, 77%, 52%);
   border: 2px solid white;
-  padding: 15px 25px 15px 25px;
+  padding: 1rem;
   border-radius: 20px;
-  margin: 10px;
 }
 
 .button_sedan:hover {
@@ -79,7 +77,7 @@ a {
   background-color: hsl(0, 0%, 95%);
   color: hsl(184, 100%, 22%);
   border: 2px solid white;
-  padding: 15px 25px 15px 25px;
+  padding: 1rem;
   border-radius: 20px;
 }
 
@@ -93,7 +91,7 @@ a {
   background-color: hsl(0, 0%, 95%);
   color: hsl(179, 100%, 13%);
   border: 2px solid white;
-  padding: 15px 25px 15px 25px;
+  padding: 1rem;
   border-radius: 20px;
 }
 
