@@ -35,33 +35,18 @@ a {
 .sedan_box {
   background-color: hsl(31, 77%, 52%);
   padding: 10px;
-  margin: 0;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-}
-
-.sedan_box a {
-  background-color: hsl(0, 0%, 95%);
-  color: hsl(31, 77%, 52%);
-  text-decoration: none;
-}
-
-.sedan_box a:hover, .button_sedan:hover {
-  color: hsl(0, 0%, 95%);
-  background-color: hsl(31, 77%, 52%);
-  text-decoration: none;
 }
 
 .suv_box {
   background-color: hsl(184, 100%, 22%);
   padding: 10px;
-  margin: 0;
 }
 
 .luxury_box {
   background-color: hsl(179, 100%, 13%);
   padding: 10px;
-  margin: 0;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -78,7 +63,11 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
-  margin-left: 25px;
+}
+
+.button_sedan:hover {
+  background: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
 }
 
 .button_suv {
@@ -88,11 +77,10 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
-  margin-left: 25px;
 }
 
 .button_suv:hover {
-  background: hsl(184, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
 }
 
@@ -103,10 +91,10 @@ a {
   border: 2px solid white;
   padding: 15px 25px 15px 25px;
   border-radius: 20px;
-  margin-left: 25px;
+
 }
 
 .button_lux:hover {
-  background: hsl(179, 100%, 13%);
+  background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
 }
