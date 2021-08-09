@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+
+* {margin: 0; padding: 0;}
+
+body {
+  display: flex;
+  background: url("images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 25%;
+}
+
+.paragraph {
+  padding: 0.5rem;
+  margin: 2rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  margin: 1rem;
+  padding: 0.8rem;
+}
+
+.plan {
+  display: flex;
+  width: 80%;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  margin: auto;
+}
+
+.plan img {
+  margin: 0.3rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan, .price {
+  margin: auto;
+  padding: 0.7rem;
+}
+
+.change {
+  margin: auto;
+}
+
+.change a:hover {
+  text-decoration: none;
+}
+
+.proceed {
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 1rem;
+  width: 70%;
+}
+
+.proceed:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.cancel {
+  font-size: 1rem;
+  border: none;
+  margin: 1rem;
+  background: none;
+}
+
+.cancel:hover {
+  cursor: pointer;
+  color: gray;
+}
