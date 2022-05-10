@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Dog Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Doggo Viewer</h1>
+      <span id="dog-name">Dougie the Default Corgi</span>
+    </header>
+    <section class="section-container">
+      <section class="column" id="left-column">
+        <section class="item">
+          <span>Choose your Breed!</span>
+        </section>
+        <!--end item-->
+        <section class="item">
+          <select class="breeds">
+            <option value="starter" selected>Pick me!</option>
+          </select>
+        </section>
+        <!--end item-->
+        <section class="item">
+          <section class="image-container">
+            <section class="container">
+              <div>&#128021; &#128021; &#128021;</div>
+              <img
+                src="http://placecorgi.com/260/180"
+                class="dog-img"
+                alt="Photo of corgis for the homepage"
+              />
+            </section>
+            <!--end container-->
+          </section>
+          <!--end image-container-->
+        </section>
+        <!--end item-->
+      </section>
+      <!--end column-->
+      <section class="column">
+        <section class="item">
+          <span>Doggo Characteristics</span>
+          <ul>
+            <li id="MF">S: Male</li>
+            <li id="age">Age: 2</li>
+            <li id="likes">Likes: Ham and string cheese</li>
+            <li id="dislikes">Dislikes: Baths and entropy</li>
+            <li id="fun-fact">
+              Additional Info: On every walk, has to stop and smell the roses
+            </li>
+          </ul>
+        </section>
+        <!--end item-->
+      </section>
+      <!--end column-->
+    </section>
+    <!--end section-container-->
+    <script src="main.js"></script>
+  </body>
+</html>
